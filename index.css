@@ -380,8 +380,8 @@ body {
     color: blue;
 }
 .text-mini{
-    margin-left: 10px;
-    top: 5px;
+    margin-left: 1px;
+    top: 10px;
     display: flex;
     position: relative;
 }
@@ -461,6 +461,10 @@ margin-top: -16px;
     
 }
 
-@media(max-width:1200px) {
+@media(max-width:700px) {
 
+        .body{
+            margin: 0;
+            padding: 0;
+        }
 }
