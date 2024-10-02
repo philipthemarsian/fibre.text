@@ -1,9 +1,14 @@
 body {
     font-size: 15px;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     /* text-align: center; */
     top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-image: linear-gradient(to bottom, grey, white, white, white,  grey); */
+    
+    /* width: 200px; */
+
     }
 .navbar {
    
@@ -11,6 +16,9 @@ body {
     justify-content: space-between;
     align-items: center;
     
+}
+.navmenu li{
+    list-style: none;
 }
 
 .fibretext {
@@ -89,7 +97,7 @@ body {
             align-items: center;
             justify-content: center;
             color: white;
-
+            box-shadow: 4px 4px 4px 4px black;
 }
 .diversify-port{
     color: white;
@@ -120,7 +128,10 @@ body {
     margin-top: 20px;
 
 }
-
+.btnfree:hover{
+    background-color: blue;
+    color: white;
+}
 .free{
     background-color: white;
     color: blue;
@@ -130,6 +141,12 @@ body {
     font-size: 15px;
     /* margin-top: -20px; */
 
+}
+.free:hover{
+    background-color: aqua;
+    color: white;
+    transition: 0.3;
+    box-shadow: 4px 4px 4px 4px black;
 }
 .article{
     padding-left: 60px;
@@ -197,6 +214,12 @@ body {
     padding: 14px 14px;
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.signout:hover{
+    background-color: aqua;
+    color: black;
+    transition: 0.3s;
+    box-shadow: 4px 4px 4px 4px black;
 }
 .signout.navmenu {
     scale: 10px;
@@ -288,13 +311,17 @@ body {
     padding-left: 30px;
 }
 
-.btn{
+.btn-second{
     padding: 15px 15px;
     background-color: blue;
     border: none;
     color: white;
     border-radius: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-second:hover{
+    background-color: aqua;
+    color: black;
 }
 .vexamples{
     color: blue;
@@ -312,6 +339,9 @@ body {
     align-items: center;
     
 }
+.mainspace{
+    border-color:2px solid black ;
+}
 .testimonials{
     width: 80%;
     margin: auto;
@@ -324,7 +354,7 @@ body {
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    border-color: 1px solid black;
+    border-color: 2px solid black;
     padding: 25px;
     /* cursor: pointer; */
     display: flex;
@@ -369,6 +399,12 @@ margin-top: -16px;
     /* width: 100%; */
     
 }
+.testimonials-col button:hover{
+    background-color: blue;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 4px 4px 4px 4px black;
+}
 .mini-stuff{
     margin-left: -70px;
 }
@@ -387,13 +423,37 @@ margin-top: -16px;
 
 .footer{
     margin-top: 100px;
-    
+    /* display: flex; */
+   
 }
 .footer-col{
     font-size: 20px;
+   
 }
 .made{
     bottom: 0;
+}
+
+.extras{
+    padding-left: 600px;
+    margin-top: -179px;
+    display: flex;
+    gap: 70px;
+    row-gap: 200px;
+    
+}
+.smalls{
+    margin-top: 25px;
+    margin-right: -20px;
+    font-size: 15px;
+    row-gap: 200px;
+    
+}
+.extras li{
+    text-decoration: none;
+    list-style: none;
+    line-height: 13px;
+    
 }
 
 @media(max-width:1200px) {
