@@ -379,7 +379,12 @@ body {
 .text{
     color: blue;
 }
-
+.text-mini{
+    margin-left: 10px;
+    top: 5px;
+    display: flex;
+    position: relative;
+}
 .testimonials-col h5{
 padding: 0;
 margin-top: -16px;
@@ -411,7 +416,7 @@ margin-top: -16px;
 
 .testimonials-col p{
     padding: 0;
-    margin: 9px;
+    margin: 3px;
 }
 .testimonials-col h3{
     margin-top: 5px;
